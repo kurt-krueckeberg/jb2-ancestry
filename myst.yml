@@ -83,23 +83,23 @@ project:
         - file: bleeke/maria-louise-eleonore/confirmation.md
     - title: Krückeberg — Carl Friedrich
       children:
-        - file: krückeberg/carl-friedrich-familie-immigration.md
-        - file: krückeberg/1853-school-enumeration.md
-        - file: krückeberg/carl-friedrich-federal-land-records.md
-        - file: krückeberg/carl-friedrich-state-land-records.md
-        - file: krückeberg/carl-friedrich-naturalization.md
-        - file: krückeberg/census.md
+        - file: krueckeberg/carl-friedrich-familie-immigration.md
+        - file: krueckeberg/1853-school-enumeration.md
+        - file: krueckeberg/carl-friedrich-federal-land-records.md
+        - file: krueckeberg/carl-friedrich-state-land-records.md
+        - file: krueckeberg/carl-friedrich-naturalization.md
+        - file: krueckeberg/census.md
     - title: Krückeberg — Karl Heinrich Wilhelm
       children:
-        - file: krückeberg/chw-immigration.md
-        - file: krückeberg/chw_krueckeberg_naturalization_oath_nov_4_1856.md
-        - file: krückeberg/chw_krueckeberg_naturalization_1890.md
+        - file: krueckeberg/chw-immigration.md
+        - file: krueckeberg/chw_krueckeberg_naturalization_oath_nov_4_1856.md
+        - file: krueckeberg/chw_krueckeberg_naturalization_1890.md
     - title: Krückeberg — Johann Heinrich
       children:
-        - file: krückeberg/johann-heinrich/baptism.md
+        - file: krueckeberg/johann-heinrich/baptism.md
           title: 1806 Baptism
-        - file: krückeberg/johann-heinrich-krueckeberg-naturalization.md
-        - file: krückeberg/1853-school-enumeration-john-henry.md
+        - file: krueckeberg/johann-heinrich-krueckeberg-naturalization.md
+        - file: krueckeberg/1853-school-enumeration-john-henry.md
     - title: Surname
       children:
         - file: surname/krueckeberg-distribution.md
