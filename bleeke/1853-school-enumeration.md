@@ -1,0 +1,61 @@
+# Listed as Parent in 1853 Indiana School Enumeration
+
+The Indiana School Enumeration of 1853 lists the number of children in a family who are school, as well as
+the head of the household, who is listed under "Names Parents & Guardians".
+
+The entire four page, handwritten school enumeration for Union township, Adams County, Indiana can be
+downloaded [here](attachments/AdamsUnionTwpSchoolEnum1853.pdf).
+
+The entries for "Christian F. Bleakey" and "John  H Bleakey" are found on the 3th page.
+
+```{list-table} Enumerations Continued
+:header-rows: 1
+
+* - Names Parents & Guardians
+  - Number of children in the family
+  - Males between 5 and 13
+  - Males between 13 and 21
+  - Females between 5 and 13
+  - Females between 13 and 21
+  - School
+* - Aaron Carpenter
+  - 2
+  - 2
+  - 0
+  - 0
+  - 0
+  - No. 5
+* - several omitted
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+* - Christian F. Bleakey
+  - 3
+  - 0
+  - 1
+  - 2
+  - 0
+  - No. 4
+* - John H. Bleakey
+  - 2
+  - 1
+  - 0
+  - 0
+  - 1
+  - No. 4
+* - remaining entries omitted
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+```
+
+```{image} images/page3-AdamsUnion1853SchoolEnum.jpg
+:class: image-override
+```
+

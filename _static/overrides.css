@@ -1,0 +1,144 @@
+/* Original: Also nice 
+.doc-text {
+    font-family: var(--pst-font-family-base);
+    font-weight: 500;
+    line-height: 1.6;
+    color: #000;
+    background-color: #fdfdfd;  
+    border: 2px solid #222;
+    border-radius: 0.4rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    text-indent: 0;
+}
+*/
+.doc-text {
+    border: 1.5px solid #777;
+    border-radius: 0.35rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+}
+/* creates a shadow-obrder for images */
+img.image-override,
+.image-override img {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.20);
+  border-radius: 4px;
+  background: white;
+  padding: 6px;
+  max-width: 100%;
+  height: auto;
+  cursor: zoom-in;
+}
+
+@media (prefers-color-scheme: dark) {
+  img.image-override,
+  .image-override img {
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.10),
+      0 6px 16px rgba(0, 0, 0, 0.55);
+    background: #1f1f1f;
+    cursor: zoom-in;
+  }
+}
+
+/* style literal text with an attractive border */
+.highlight-text.notranslate {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  margin-top: 0.4em;
+  border: 3px solid #444;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.highlight-text.notranslate pre {
+  margin-bottom: 0;
+}
+
+/* Widen logo area
+.sidebar-primary-item .navbar-brand.logo {
+  width: 320px;
+  max-width: none;
+}
+
+.sidebar-primary-item .navbar-brand.logo,
+.sidebar-primary-item .navbar-brand.logo img.logo__image {
+  width: 260px;
+  max-width: none;
+  height: auto;
+}
+*/
+
+/* Widen logo image without forcing the sidebar/layout wider */
+.sidebar-primary-item .navbar-brand.logo {
+  display: block;
+  max-width: 100%;
+}
+
+.sidebar-primary-item .navbar-brand.logo img.logo__image {
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Start navigation 2rem to the left */
+@media (min-width: 960px) {
+  .bd-sidebar-primary .sidebar-primary-items {
+    margin-left: -2rem;
+    width: calc(100% + 2rem);
+  }
+}
+
+/* Disable zebra striping on flat-tables with row/column spans */
+.no-zebra-rowspan-table tbody tr,
+.no-zebra-rowspan-table tbody tr:nth-child(odd),
+.no-zebra-rowspan-table tbody tr:nth-child(even),
+.no-zebra-rowspan-table tbody td,
+.no-zebra-rowspan-table tbody th {
+  background-color: transparent !important;
+}
+
+
+/* Enables extra wide content when hamburger menu is clicked that removes the
+   navigation pane by letting the page use the full browser width */
+
+.bd-page-width {
+  max-width: 100%;
+}
+
+/* Remove the cap on the width of the main article column */
+.bd-main .bd-content .bd-article-container {
+  max-width: 100%;
+}
+
+/* Trim the side padding around the article */
+.bd-article-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* If a table is still too wide, scroll it sideways instead of cutting it off */
+.bd-article table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* Make the leftt navigation pane narrower (desktop widths only) */
+@media (min-width: 992px) {
+  .bd-sidebar-primary {
+    flex: 0 0 250px;
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+   /* When the hamburger hides the pane, slide it off by exactly its own width */
+  .bd-sidebar-primary.pst-sidebar-hidden,
+  input#pst-primary-sidebar-checkbox:checked ~ .bd-container .bd-sidebar-primary {
+    margin-left: -250px;
+  }
+}
+/* remove right-hand pane, too
+.bd-sidebar-secondary {
+  display: none;
+}
+*/

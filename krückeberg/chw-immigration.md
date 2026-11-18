@@ -1,0 +1,35 @@
+# 1850 Immigration of Carl Friedrich Krückeberg Family
+
+The Carl Friedrich Krückeberg family arrived in Castle Garden, New York City, on 19 November 1850, on the ship Hermine
+that departed from the port of Bremen. The parents and the three oldest children are listed together; however, the three
+youngest children—​Wilhelmine Christine (born 1843), Friederick Wilhelm (born 1846) and Ernst Wilhelm Heinrich (born 1850)
+--appear on the penultimage page of the passenger list.
+
+Below is the {ref}`image <chw-hermine-image1>` of the names of the parents and the three eldest children:
+
+```{image} images/hermine-passenger-arrival-list-part1.jpg
+:class: image-override
+```
+
+Below is the {ref}`image <chw-hermine-image2>` of the names of the three youngest children:
+
+```{image} images/hermine-passenger-arrival-list-part2.jpg
+:class: image-override
+```
+
+## References
+
+(chw-hermine-image1)=
+
+[chw-hermine-image1] Ancestry.com, database with images of passenger lists of ships arriving from foreign ports at the port
+of New York from 1820-1957, Ancestry ( [https:NYM237_94-0523](https://www.ancestry.com/imageviewer/collections/7488/images/NYM237_94-0523) : 23
+November 2024), path: SearchImmigration & EmigrationNew York, U.S., Arriving Passenger and Crew Lists (including Castle Garden
+and Ellis Island), 1820-1957 > Date > 1850 > November > 19 > Hermine
+
+(chw-hermine-image2)=
+
+[chw-hermine-image2] Ancestry.com, database with images of passenger lists of ships arriving from foreign ports at the port
+of New York from 1820-1957, Ancestry ( [https:NYM237_94-0523](https://www.ancestry.com/imageviewer/collections/7488/images/NYM237_94-0523) : 23
+November 2024), path: SearchImmigration & EmigrationNew York, U.S., Arriving Passenger and Crew Lists (including Castle Garden
+and Ellis Island), 1820-1957 > Date > 1850 > November > 19 > Hermine
+

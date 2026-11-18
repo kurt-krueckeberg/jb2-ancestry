@@ -1,0 +1,133 @@
+version: 1
+project:
+  title: Krückeberg Ancestry Research
+  authors:
+    - name: Kurt Krueckeberg
+  github: kurt-krueckeberg/jb2-ancestry
+  references:
+    genealogy: https://gen.krueckeberg.org/
+    nla: https://nla.krueckeberg.org/
+    immanuel: https://imm.krueckeberg.org/
+  plugins:
+    - flat-table.mjs
+    - link-images.mjs
+  exclude:
+    - todo.md
+  exports:
+    - format: typst
+      template: plain_typst_book
+      output: exports/book.pdf
+      id: book-pdf
+  toc:
+    - file: index.md
+    - title: Krückeberg Ancestry
+      children:
+        - file: ancestry/index.md
+        - file: ancestry/event-tables.md
+        - file: ancestry/cfk-branch.md
+          title: 'Branch I: Carl Friedrich Krückeberg (b. 1807) Pedigree'
+          children:
+            - file: ancestry/cfk-1807-events.md
+            - file: ancestry/cfgk-1879-events.md
+        - file: ancestry/jhk-branch.md
+          title: 'Branch II: Johann Heinrich Krückeberg (1806-1879) Pedigree'
+          children:
+            - file: ancestry/jhk-1806-events.md
+            - file: ancestry/jobst-hk-1765-events.md
+            - file: ancestry/jhk-1767-events.md
+        - file: ancestry/merging-the-two-lines.md
+          children:
+            - file: ancestry/no-10-berenbusch-residents.md
+            - file: ancestry/two-jobsts.md
+            - file: ancestry/one-jobst.md
+            - file: ancestry/one-or-two-jobst-heinrichs.md
+            - file: ancestry/who-is-the-father-of-jobst-heinrich.md
+            - file: ancestry/jhk-1744-events.md
+        - file: ancestry/proof-arg-philippine-eleonore-werkmeister.md
+    - title: Case Studies
+      children:
+        - file: ancestry-studies/johann-heinrich-krueckeberg-identity-problem.md
+        - file: ancestry-studies/soldier-weiland.md
+    - title: Federal Land Records
+      children:
+        - file: federal-land-records/index.md
+          children:
+            - file: federal-land-records/federal-land-acquisition.md
+            - file: federal-land-records/land-acts.md
+            - file: federal-land-records/residency-and-naturalization.md
+            - file: federal-land-records/indiana-land-records.md
+            - file: federal-land-records/swamplands-act.md
+              children:
+                - file: federal-land-records/indiana-boondoggle.md
+            - file: federal-land-records/viewing-plss.md
+            - file: federal-land-records/records-land-and-other.md
+            - file: federal-land-records/plats.md
+    - title: Bleeke
+      children:
+        - file: bleeke/bleeke-land-records.md
+          title: Bleeke Land Records
+    - title: Johann Heinrich Philipp Bleeke
+      children:
+        - file: bleeke/jhp-bleeke-land-patents.md
+        - file: bleeke/jhp-bleeke-1853-school-enumeration.md
+    - title: Carl Friedrich Bleeke
+      children:
+        - file: bleeke/cf-bleeke-bio.md
+          title: Biography
+        - file: bleeke/carl-friedrich-bleeke-family-us-arrival.md
+    - title: Christian Friedrich Bleeke
+      children:
+        - file: bleeke/cf-bleeke-1853-school-enumeration.md
+    - title: Maria Louise Eleonore Bleeke
+      children:
+        - file: bleeke/maria-louise-eleonore/confirmation.md
+    - title: Krückeberg — Carl Friedrich
+      children:
+        - file: krückeberg/carl-friedrich-familie-immigration.md
+        - file: krückeberg/1853-school-enumeration.md
+        - file: krückeberg/carl-friedrich-federal-land-records.md
+        - file: krückeberg/carl-friedrich-state-land-records.md
+        - file: krückeberg/carl-friedrich-naturalization.md
+        - file: krückeberg/census.md
+    - title: Krückeberg — Karl Heinrich Wilhelm
+      children:
+        - file: krückeberg/chw-immigration.md
+        - file: krückeberg/chw_krueckeberg_naturalization_oath_nov_4_1856.md
+        - file: krückeberg/chw_krueckeberg_naturalization_1890.md
+    - title: Krückeberg — Johann Heinrich
+      children:
+        - file: krückeberg/johann-heinrich/baptism.md
+          title: 1806 Baptism
+        - file: krückeberg/johann-heinrich-krueckeberg-naturalization.md
+        - file: krückeberg/1853-school-enumeration-john-henry.md
+    - title: Surname
+      children:
+        - file: surname/krueckeberg-distribution.md
+    - title: Background History
+      children:
+        - file: history/schaumburg-lippe.md
+        - file: history/life-in-schaumburg-lippe.md
+    - title: Cultural and Legal Background
+      children:
+        - file: laws/landownership-resources-overview.md
+          children:
+            - file: laws/laws.md
+        - file: hofname/hofname-explained.md
+          children:
+            - file: hofname/hofname-in-church-registers.md
+            - file: hofname/suranems-nonimmutable.md
+            - file: hofname/hofname-vs-surname.md
+    - title: What Else the Church Register Reveal about Life
+      children:
+        - file: diseases/disease-and-mortality.md
+          children:
+            - file: diseases/rote-and-weisse-ruhr.md
+            - file: diseases/premature-death-of-young-and-infants.md
+        - file: >-
+            military/funeral-sermons-for-3-killed-at-the-battle-of-leuthen-petzen.md
+        - file: military/battle-of-leuthen.md
+site:
+  options:
+    folders: true
+    style: _static/overrides.css
+  template: book-theme
